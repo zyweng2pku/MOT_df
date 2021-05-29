@@ -9,6 +9,17 @@ Requisites: python
 
 Clone the FairMOT project and replace the multitracker.py file and the matching.py file in the src/lib/tracker dir.
 
+After that, run the demo according to the instructions in [FairMOT](https://github.com/ifzhang/FairMOT/)
+
+
+## Result Update ##
+It should be noted that in the ICARCV paper, we use the FairMOT_v1 network. Now, since the network is optimized, which is called FairMOT_v2 in the recent MOT papers, we apply our method on FairMOT_v2, and it still works. The updated results on MOT16 training dataset are below.
+| Method  | IDF1 | MOTA | IDs |
+| ------- | ---- | ---- | ---- |
+| FairMOT_v2  | 81.9% | 83.3% | 544 |
+| ours  | 82.3%  | 83.3% | 514 |
+ 
+
 
 ## Reference ##
 [1] Zhang, Yifu, Chunyu Wang, Xinggang Wang, Wenjun Zeng, and Wenyu Liu. "FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking." arXiv preprint arXiv:2004.01888 (2020).
