@@ -2,7 +2,7 @@
 Multiple Object Tracking (MOT) work that explores the association stage, is accepted by ICARCV 2020.
 
 ## Overview ##
-This method is real-time multiple object tracking based on FairMOT(https://github.com/ifzhang/FairMOT/)[1]. Different from FairMOT, we mainly explore the association stage by using new association strategy and online learning method to learn effective features.
+This method is real-time multiple object tracking based on [FairMOT](https://github.com/ifzhang/FairMOT/)[1]. Different from FairMOT, we mainly explore the association stage by using new association strategy and online learning method to learn effective features.
 
 ## Building ##
 Requisites: python
